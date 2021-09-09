@@ -1,0 +1,65 @@
+:root {
+    --movie-card-height: 14em;
+}
+
+.row {
+    position: relative;
+    top: -11em;
+    height: auto;
+    margin: 1em;
+    margin-left: 3.2em;
+    margin-right: 0;
+}
+
+.card-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    overflow: visible;
+    overflow-x: scroll;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.row-title {
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.4em;
+    padding-left: 10px;
+}
+
+.movie-card {
+    flex-shrink: 0;
+    height: 6.5em;
+    width: 12em;
+    color: gray;
+    object-fit: contain;
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    /* transition-delay: 0.3s;     */
+}
+
+.large {
+    height: 14em;
+    width: 10em;
+}
+
+.movie-card:hover {
+    /* outline: 3px solid rgba(171,199,189,0.12); */
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+@media (max-width: 700px) {
+    .row{
+        margin-left: 0.5em;
+    }
+}

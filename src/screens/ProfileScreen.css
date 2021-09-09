@@ -1,0 +1,91 @@
+* {
+  font-weight: 400;
+}
+
+.profile-screen {
+  height: 100%;
+}
+
+.profile-body {
+  display: flex;
+  flex-direction: column;
+  color: rgb(223, 223, 223);
+  max-width: 800px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 8%;
+  min-width: 700px;
+}
+
+.profile-body hr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  margin-bottom: 18px;
+  margin-top: 5px;
+}
+
+.profile-title {
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+
+.lower-section {
+  display: flex;
+}
+
+.profile-avatar {
+  height: 6.8em;
+}
+
+.plan-detail {
+  width: 100%;
+  margin-left: 18px;
+}
+
+.profile-email {
+  background: grey;
+  padding: 0.6em;
+  margin-bottom: 18px;
+}
+
+.signout-btn {
+  width: 100%;
+  background: var(--netflix-red-color);
+  border: 0;
+  color: white;
+  height: 35px;
+}
+
+.plan {
+  margin: 1.8em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan h4 {
+    display: inline-block;
+    color: rgb(168, 168, 168);
+}
+
+.resolution-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.plan button {
+  background: var(--netflix-red-color);
+  border: 0;
+  color: white;
+  padding: 3px 20px;
+}
+
+.plan:hover h4 {
+  color: white;
+}
+
+.plan:hover button {
+  background: #e62630;
+}

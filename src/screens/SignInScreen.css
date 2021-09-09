@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.sign-in {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 350px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.sign-in > h1 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sign-in input {
+  width: 100%;
+  padding: 1em;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: 0;
+  outline-width: 0;
+  background: rgb(31, 31, 31);
+  font-size: 15px;
+}
+
+.sign-in input:focus {
+  background: rgb(94, 94, 94);
+  color: black;
+}
+
+.sign-in button {
+  margin-top: 35px;
+  width: 100%;
+  padding: 1em;
+  border: 0;
+  border-radius: 3px;
+  background: #e50914;
+  color: white;
+}
+
+.sign-in h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: grey;
+}
+
+.sign-in h4 > span {
+  color: white;
+}
+
+.sign-in h4 > span:hover {
+  text-decoration: underline;
+}
+

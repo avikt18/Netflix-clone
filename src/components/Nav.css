@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+  /* animations */
+  transition: all 0.5s ease-in;
+}
+
+.nav-black {
+  background: #141414;
+}
+
+.nav-contents {
+}
+
+.nav-logo {
+  height: 60px;
+  position: fixed;
+  top: 2px;
+  padding: 0.9em;
+  padding-left: 0;
+  margin-left: 4.4%;
+  cursor: pointer;
+}
+
+.nav-avatar {
+  height: 65px;
+  position: fixed;
+  right: 0px;
+  padding: 0.9em 1em;
+  padding-left: 0;
+  margin-right: 4.4%;
+  cursor: pointer;
+}
